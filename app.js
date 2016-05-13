@@ -6,3 +6,6 @@ app.get('/',function(req,res){
 app.get('/test',function(req,res){
   res.send("你好test");
 });
+app.get('/test1',function(req,res){
+  res.send("你好test1");
+});
